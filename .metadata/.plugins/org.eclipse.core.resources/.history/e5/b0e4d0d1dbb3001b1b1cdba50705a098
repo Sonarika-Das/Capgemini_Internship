@@ -1,0 +1,35 @@
+//Create a method which accepts an array of integer elements and return 
+//the second smallest element in the array
+package lab2arrays;
+import java.util.Scanner;
+public class SecondSmallestElement 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter array size");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		System.out.println("Enter array");
+		for(int i=0; i<size; i++)
+			arr[i]=sc.nextInt();
+		System.out.println("The second smallest number is "+ secondSmallest(arr));
+		sc.close();
+		for(int i=0; i<size; i++)
+		{
+			System.out.print(" "+arr[i]);
+		}
+	}
+	
+	static int secondSmallest(int[] arr)
+	{
+		int len=arr.length;
+		int min=arr[0];
+		for(int i=0; i<len; i++)
+		{
+			if(arr[0]<min)
+				min=arr[0];
+		}
+		return arr[0];
+	}
+}

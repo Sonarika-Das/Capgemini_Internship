@@ -1,0 +1,10 @@
+package lab2arrays;
+
+public class AlphabeticalStringSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

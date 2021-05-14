@@ -1,0 +1,10 @@
+package labbook_solution;
+
+public class Ex_7_IncreasingNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

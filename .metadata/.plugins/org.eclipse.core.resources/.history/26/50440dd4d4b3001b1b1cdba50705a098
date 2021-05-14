@@ -1,0 +1,26 @@
+package labbook_solution;
+
+import java.util.Scanner;
+
+public class Ex_8_PowerOfTwo 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		if(checkNumber(n))
+			System.out.println("The number is an increasing number");
+		else
+			System.out.println("Not an increasing number");
+	}
+	
+	static boolean checkNumber(int n)
+	{
+		if(n%2==0)
+			return true;   // print NOT increasing
+		else
+			return false;	// print Increasing
+	}
+
+}

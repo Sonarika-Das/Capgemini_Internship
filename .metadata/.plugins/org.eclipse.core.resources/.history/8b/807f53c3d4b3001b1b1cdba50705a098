@@ -1,0 +1,10 @@
+package labbook_solution;
+
+public class Ex_8_PowerOfTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
